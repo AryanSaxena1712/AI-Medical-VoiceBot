@@ -63,6 +63,3 @@ This application is not a substitute for real medical advice. It is intended for
 📃 License
 This project is licensed under the MIT License.
 
-🙋‍♂️ Author
-Aryan Neeraj Saxena
-🔗 LinkedIn • 💻 GitHub
