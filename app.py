@@ -49,3 +49,17 @@ iface = gr.Interface(
 )
 
 iface.launch(debug=True)
+
+
+
+def test_app():
+    # Simulate audio input
+    test_audio_path = "test_audio.wav"  # Path to a test audio file
+    test_image_path = "test_image.jpg"  # Path to a test image file
+
+    # Call the processing function directly for testing
+    stt_output, doctor_response, doctor_voice = process_inputs(test_audio_path, test_image_path)
+
+    print("Speech to Text Output:", stt_output)
+    print("Doctor's Response:", doctor_response)
+    print("Doctor's Voice Output Path:", doctor_voice)
