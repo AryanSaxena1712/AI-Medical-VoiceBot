@@ -62,3 +62,5 @@ def test_app():
     print("Speech to Text Output:", stt_output)
     print("Doctor's Response:", doctor_response)
     print("Doctor's Voice Output Path:", doctor_voice)
+
+test_app()
